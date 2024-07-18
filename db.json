@@ -1,0 +1,106 @@
+{
+    "Products": [
+      {
+        "id":"1",
+        "wear": "Dress",
+        "size": "large",
+        "brand": "PrettyKnits",
+        "description": "Elegant evening dress with floral patterns",
+        "price": "397",
+        "image": "/assets/dress.jpg"
+      },
+      {
+        "id":"2",
+        "wear": "Jeans",
+        "size": "Medium",
+        "brand": "Stockcake",
+        "description": "Slim-fit jeans with distressed patches",
+        "price": "250",
+        "image": "/assets/jean.jpg"
+      },
+      {
+        "id":"3",
+        "wear": "Shirt",
+        "size": "Large",
+        "brand": "FashionFinesse",
+        "description": "Casual checkered shirt for everyday wear",
+        "price": "346",
+        "image": "/assets/shirts.avif"
+      },
+      {
+        "id":"4",
+        "wear": "Bridal dress",
+        "size": "Large",
+        "brand": "FashionFinesse",
+        "description": "Casual checkered shirt for everyday wear",
+        "price": "300,000",
+        "image": "/assets/beautiful.jpeg"
+      },
+      {
+        "id":"5",
+        "wear": "crop-skirt",
+        "size": "Medium",
+        "brand": "FashionFinesse",
+        "description": "girl's smart wear",
+        "price": "545",
+        "image": "/assets/nika.jpg"
+      },
+      {
+        "id":"6",
+        "wear": "Caps",
+        "size": "All sizes available",
+        "brand": "FashionFinesse",
+        "description": "Casual caps for hanging out",
+        "price": "159",
+        "image": "/assets/latest caps.jpg"
+      },
+      {
+        "id":"7",
+        "wear": "nike outfits",
+        "size": "Large",
+        "brand": "Nike",
+        "description": "For the sport lovers",
+        "price": "2559",
+        "image": "/assets/nike outfits.jpg"
+      },
+      {
+        "id":"8",
+        "wear": "Princess Dress",
+        "size": "Medium",
+        "brand": "Chanel",
+        "description": "Flower girl's dress",
+        "price": "2000",
+        "image": "/assets/princessdress.jpg"
+      },
+      {
+        "id":"9",
+        "wear": "V wears",
+        "size": "medium",
+        "brand": "Versace",
+        "description": "chilling moments",
+        "price": "1354",
+        "image": "/assets/milan-italy.jpeg"
+      },
+      {
+        "id":"10",
+        "wear": "Full set ",
+        "size": "Large",
+        "brand": "FashionFinesse",
+        "description": "A cute dress for a cute baby",
+        "price": "1219",
+        "image": "/assets/men drip.jpg"
+      },
+      {
+        "id":"11",
+        "wear": "kids wear ",
+        "size": "Small",
+        "brand": "FashionFinesse",
+        "description": "A boy's fit drip",
+        "price": "1545",
+        "image": "/assets/kids wear.jpg"
+      }
+      
+      
+    ]
+  }
+  

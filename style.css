@@ -1,114 +1,24 @@
 
-
+/* Apply a bright gradient background to the entire body */
 body {
-    background-image: url('/assets/background.jpeg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    margin: 0;
     font-family: Arial, sans-serif;
-    
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+    color: white;
 }
 
-/* Style the header */
+/* Header Styles */
 header {
-    text-align: center;
-    padding: 50px 0;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(198, 7, 119, 0.8);
 }
 
 header h1 {
     margin: 0;
-    font-size: 3em;
-    color:white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow to the text */
-    letter-spacing: 3px; /* Increase spacing between letters */
-    font-family: 'Playfair Display', serif; /* Change font family */
-    padding: 20px;
-    background-color: rgba(16, 212, 226, 0.918); /* Add background color */
-    border-radius: 10px; /* Round the corners */
-    border: 2px solid white; /* Add border */
-    display: inline-block; /*Ensure padding works as intended
-    
-    }
-    
-}
-
-
-/* Style the main content */
-main {
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-}
-
-}
-/* Style the About Us section */
-.about-us {
-    background-image: url('/assets/aboutus.jpeg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: left;
-    padding: 20px;
-
-    margin: 20px auto;
-    border-radius: 10px;
-    max-width: 800px; /* Limit the width for better readability */
-}
-
-.about-us h2 {
-    font-size: 2.5em;
-    color: #e01078; /* Hot pink color */
-    text-align: center;
-    text-shadow: 1px 1px 3px rgba(226, 13, 191, 0.932); /* Add shadow to the text */
-}
-.about-us p {
-    font-size: 1.2em;
-    color:white;
-    line-height: 1.6; /* Increase line spacing for better readability */
-}
-/* styles.css */
-
-body {
-    font-family: Arial, sans-serif;
-    
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-
-}
-
-/* styles.css */
-
-/* Basic styles for the header */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #9912e7;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    
-}
-
-.logo img {
-    max-width: 150px;
-    height: auto;
 }
 
 nav ul {
@@ -124,13 +34,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-weight: bold;
 }
 
+/* Featured Products Styles */
 .featured-products {
     text-align: center;
     padding: 50px 0;
+    background-color: rgba(249, 9, 209, 0.8);
+    color: #333;
 }
 
 .product-container {
@@ -142,11 +55,12 @@ nav ul li a {
 .product {
     margin: 20px;
     padding: 20px;
-    background-color: #f106e6;
+    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    position: relative;
 }
 
 .product:hover {
@@ -165,19 +79,19 @@ nav ul li a {
 .product-image img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; /* Ensure the image fits within the container without distortion */
+    object-fit: contain;
     transition: opacity 0.3s;
 }
 
 .product h3 {
     font-size: 1.2em;
-    color: #230de6;
+    color: #333;
     margin: 10px 0;
 }
 
 .product p {
     font-size: 1em;
-    color: #da1010;
+    color: #666;
     margin: 10px 0;
 }
 
@@ -185,7 +99,7 @@ nav ul li a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
-    color: #0c35bb;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -195,3 +109,132 @@ nav ul li a {
     background-color: #555;
 }
 
+.product .like-btn, .product .unlike-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.product .like-btn {
+    color: #f00;
+}
+
+.product .unlike-btn {
+    color: #ccc;
+}
+
+/* Contact Us Section Styles */
+.contact-section {
+    padding: 70px;
+    background-color: rgba(195, 11, 228, 0.8);
+    text-align: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.contact-section button.btn {
+    display: inline-block;
+    width: auto;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-section button.btn:hover {
+    background-color: #555;
+}
+
+/* Styling the contact-info div */
+.contact-info {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1em;
+}
+
+.contact-info p strong {
+    color: #333;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
