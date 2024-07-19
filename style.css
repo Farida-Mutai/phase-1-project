@@ -6,6 +6,7 @@ body {
     padding: 0;
     background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
     color: white;
+    
 }
 
 /* Header Styles */
@@ -37,6 +38,8 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
 }
+
+
 
 /* Featured Products Styles */
 .featured-products {
@@ -120,7 +123,7 @@ nav ul li a {
 }
 
 .product .like-btn {
-    color: #f00;
+    color: rgb(243, 6, 144);
 }
 
 .product .unlike-btn {
