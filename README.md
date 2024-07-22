@@ -55,6 +55,8 @@ JavaScript file responsible for fetching data from db.json, rendering the produc
 db.json
 A JSON file containing product data for the application.
 
+### View in my hoisted link
+https://fashionfinesse.netlify.app/
 
 ## Support and contact details
 For any issues please email me at farida.mutai@student.moringaschool.com
